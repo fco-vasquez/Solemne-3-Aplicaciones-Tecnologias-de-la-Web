@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    height: 770px;
     padding: 115px;
+
 }
 
 html, body {
@@ -35,8 +36,6 @@ body{
 
 .footer {
     width: 100%;
-    background-color: #000; /* Cambia esto al color que prefieras */
-    color: #fff; /* Color del texto */
     padding: 20px 0;
     position: relative;
 }
@@ -64,4 +63,67 @@ body{
 .footer a {
     color: inherit; /* Asegura que los enlaces tengan el mismo color que el texto */
     text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.separate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.size{
+    height: 350px;
+    width: 450px;
+}
+
+.rut{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.rut input{
+    width: 350px;
+    border: 0;
+    background-color: #eaeaeaea;
+    border-radius: 5%;
+}
+
+.rut a{
+    padding-right: 10px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.start input{
+    width: 270px;
+    border: 0;
+    background-color: #eaeaeaea;
+    border-radius: 5%;
+}
+
+.start a{
+    padding-right: 10px;
+}
+
+.end input{
+    width: 280px;
+    border: 0;
+    background-color: #eaeaeaea;
+    border-radius: 5%;
+}
+
+.end a{
+    padding-right: 10px;
 }
